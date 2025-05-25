@@ -98,4 +98,4 @@ There is also an obsolete [SVN archive repository](https://svn.reactos.org/react
 [rosbewin.link]:    https://sourceforge.net/projects/reactos/files/RosBE-Windows/i386/2.2.1/
 [rosbeunix.link]:   https://sourceforge.net/projects/reactos/files/RosBE-Unix/2.2.1/
 
-#DO NOT DOWNLOAD THIS UNTIL SEPTEMBER 29TH 2025 UTC +0:00 
+DO NOT DOWNLOAD THIS UNTIL SEPTEMBER 29TH 2025 UTC +0:00 
