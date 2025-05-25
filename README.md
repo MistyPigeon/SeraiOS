@@ -5,12 +5,12 @@ SeraiOS is an Open Source effort to develop a quality operating system that is c
 
 The TechnoSeraiwan project, although currently focused on Windows Server 2003 compatibility, is always keeping an eye toward compatibility with Windows Vista and future Windows NT releases.
 
-The code of ReactOS is licensed under [GNU GPL 2.0](https://github.com/reactos/reactos/blob/master/COPYING).
+The code of SeraiOS is licensed under [GNU GPL 2.0](https://github.com/reactos/reactos/blob/master/COPYING).
 This OS is a fork of ReactOS,please be alert of this file changing alot
  
 ### Product quality warning
 
-**ReactOS is currently an Alpha quality operating system.** This means that ReactOS is under heavy development and you have to be ready to encounter some problems. Different things may not work well and it can corrupt the data present on your hard disk. It is HIGHLY recommended to test ReactOS on a virtual machine or on a computer with no sensitive or critical data!
+**SeraiOS is currently an Alpha quality operating system.** This means that SeraiOS is under heavy development and you have to be ready to encounter some problems. Different things may not work well and it can corrupt the data present on your hard disk. It is HIGHLY recommended to test ReactOS on a virtual machine or on a computer with no sensitive or critical data!
 
 ## Building
 
@@ -97,3 +97,5 @@ There is also an obsolete [SVN archive repository](https://svn.reactos.org/react
 [coverity.link]:    https://scan.coverity.com/projects/205
 [rosbewin.link]:    https://sourceforge.net/projects/reactos/files/RosBE-Windows/i386/2.2.1/
 [rosbeunix.link]:   https://sourceforge.net/projects/reactos/files/RosBE-Unix/2.2.1/
+
+#DO NOT DOWNLOAD THIS UNTIL SEPTEMBER 29TH 2025 UTC +0:00 
