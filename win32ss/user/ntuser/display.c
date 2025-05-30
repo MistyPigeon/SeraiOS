@@ -247,7 +247,6 @@ UserEnumDisplayDevices(
 
     if (!pustrDevice)
     {
-        ASSERT(pGraphicsDevice->PhysDeviceHandle);
         pdo = pGraphicsDevice->PhysDeviceHandle;
     }
     else
@@ -288,7 +287,6 @@ UserEnumDisplayDevices(
         RtlStringCbCopyW(pdispdev->DeviceName, sizeof(pdispdev->DeviceName), pGraphicsDevice->szWinDeviceName);
         RtlStringCbCopyW(pdispdev->DeviceString, sizeof(pdispdev->DeviceString), pGraphicsDevice->pwszDescription);
         pdispdev->StateFlags = pGraphicsDevice->StateFlags;
-        pdo = pGraphicsDevice->PhysDeviceHandle;
     }
     else
     {
@@ -304,7 +302,6 @@ UserEnumDisplayDevices(
                 pdispdev->DeviceString[0] = UNICODE_NULL;
         }
         pdispdev->StateFlags = pGraphicsDevice->pvMonDev[iDevNum].flag;
-        pdo = pGraphicsDevice->pvMonDev[iDevNum].pdo;
     }
     pdispdev->DeviceID[0] = UNICODE_NULL;
 
